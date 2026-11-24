@@ -1,0 +1,11 @@
+{
+  "name": "git-training-project",
+  "version": "1.0.0",
+  "description": "Simple Node.js project for practicing Git (branching, merging, rebasing)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
