@@ -1,11 +1,24 @@
 {
-  "name": "git-training-project",
-  "version": "1.0.0",
-  "description": "Simple Node.js project for practicing Git (branching, merging, rebasing)",
-  "main": "src/index.js",
+  "name": "taskflow",
+  "version": "0.1.0",
+  "description": "TaskFlow - a task management REST API built with Node.js and Express",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
     "test": "node --test"
   },
-  "license": "MIT"
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "rest-api",
+    "nodejs",
+    "express",
+    "task-manager"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.3"
+  }
 }
